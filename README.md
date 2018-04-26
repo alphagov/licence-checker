@@ -16,3 +16,6 @@ Run using:
 For example:
 
     python run.py abcdeiouhwefoiuhwefoihfjfi alphagov
+
+## License
+Distributed under [the MIT License](LICENCE)
