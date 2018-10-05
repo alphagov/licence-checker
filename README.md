@@ -17,5 +17,15 @@ For example:
 
     python run.py abcdeiouhwefoiuhwefoihfjfi alphagov
 
+The script may take a couple of minutes to run.
+
+## Narrow the results to your team
+
+Assuming all the repos for your team begin with the same prefix, for example `pay-`, then you can use grep to narrow your results.
+
+For example:
+
+	python run.py abcdeiouhwefoiuhwefoihfjfi alphagov | grep "pay-"
+
 ## License
 Distributed under [the MIT License](LICENCE)
