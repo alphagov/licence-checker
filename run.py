@@ -8,7 +8,7 @@ from github.GithubException import UnknownObjectException
 def get_repos(client, org):
     repos = client.get_organization(org).get_repos()
     for repo in repos:
-        if not repo.archived and not repo.fork:
+        if not repo.archived and not repo.fork and not repo.private:
             yield repo
 
 
